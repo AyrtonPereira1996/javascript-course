@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Meu primeiro programa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="main.js"></script>
+    <style>
+        body{
+            background-color: rgb(10, 43, 44);
+            color: white;
+            font-size: 20pt;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+
+        h1{
+            color: rgb(148, 17, 43);
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello People!</h1>
+ 
+    <script>
+        var nome = window.prompt("Como te chamas?")
+       var anoNascimento = window.prompt("Qual é o teu ano de nascimento?")
+       var anoAtual = window.prompt("Qual é o ano atual?")
+       var idade = anoAtual - anoNascimento
+       window.alert("Bem vindo, " + nome + " nasceste em " + anoNascimento + " por isso tens " + idade + " anos" )
+    </script>
+
+
+</body>
+</html>
